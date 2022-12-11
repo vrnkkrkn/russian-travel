@@ -5,18 +5,18 @@
     padding: 0;
     background: #2A2C2F;
   }
-  @media (max-width : 1024px)
-  {
-
-
+  @media screen and (max-width: 1024px) {
+    .page {
+      max-width: 1024px;
+    }
   }
-  @media (max-width : 768px)
-  {
-
-    
+  @media screen and (max-width: 768px) {
+    .page {
+      max-width: 768px;
+    }  
   }
-  @media (max-width : 320px)
-  {
-
-    
+  @media screen and (max-width: 320px) {
+    .page {
+      max-width: 320px;
+    } 
   }
