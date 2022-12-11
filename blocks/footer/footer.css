@@ -8,18 +8,18 @@
     padding-bottom: 24px;
     padding-top: 92px;
 }
-@media (max-width : 1024px) {
+@media screen and (max-width : 1024px) {
     .footer {
         max-width: 928px;
     } 
   }
-  @media (max-width : 768px) {
+  @media screen and (max-width : 768px) {
     .footer {
         max-width: 720px;
         padding-top: 88px;
     }  
   }
-  @media (max-width : 320px) {
+  @media screen and (max-width : 320px) {
     .footer {
         max-width: 186px;
         min-height: 310px;

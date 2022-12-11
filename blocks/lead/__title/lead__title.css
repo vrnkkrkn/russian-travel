@@ -11,17 +11,17 @@
     color: white;
     align-self: center;
 }
-@media (max-width : 1024px) {
+@media screen and (max-width : 1024px) {
     .lead__title {
         margin-top: 48px;
         } 
   }
-  @media (max-width : 768px) {
+  @media screen and (max-width : 768px) {
     .lead__title {
         margin-top: 48px;
         } 
   }
-  @media (max-width : 320px) {
+  @media screen and (max-width : 320px) {
     .lead__title {
       max-width: 288px;
       width: 100%;

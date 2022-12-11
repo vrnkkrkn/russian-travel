@@ -31,21 +31,21 @@ z-index: 1;
 .cover__link::before:hover {
     opacity: 0.8;
 }
-@media (max-width : 1024px) {
+@media screen and (max-width : 1024px) {
     .cover__link {
         max-width: 1024px;
         width: 100%;
         min-height: 640px; 
     }
   }
-  @media (max-width : 768px) {
+  @media screen and (max-width : 768px) {
     .cover__link {
         max-width: 768px;
         width: 100%;
         min-height: 480px; 
     } 
   }
-  @media (max-width : 320px) {
+  @media screen and (max-width : 320px) {
     .cover__link {
         max-width: 320px;
         width: 100%;

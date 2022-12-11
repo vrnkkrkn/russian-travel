@@ -10,7 +10,7 @@
     color: white;
     text-decoration: none;
 }
-  @media (max-width : 320px) {
+  @media screen and (max-width : 320px) {
     .footer__link {
         max-width: 158px;
         min-height: 24px;

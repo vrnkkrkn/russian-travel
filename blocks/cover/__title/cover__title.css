@@ -12,17 +12,17 @@
     position: relative;
     z-index: 2;
 }
-@media (max-width : 1024px) {
+@media screen and (max-width : 1024px) {
     .cover__title {
         margin-top: 195px;
     } 
   }
-  @media (max-width : 768px) {
+  @media screen and (max-width : 768px) {
     .cover__title {
         margin-top: 115px;
     }  
   }
-  @media (max-width : 320px) {
+  @media screen and (max-width : 320px) {
     .cover__title {
         max-width: 288px;
         width: 100%;
