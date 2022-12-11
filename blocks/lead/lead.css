@@ -1,0 +1,29 @@
+.lead {
+    max-width: 984px;
+    min-height: 1005px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media (max-width : 1024px) {
+    .lead {
+        max-width: 928px;
+        min-height: 962px;
+        }
+  }
+  @media (max-width : 768px) {
+    .lead {
+    max-width: 768px;
+    min-height: 862px;
+    }
+
+    
+  }
+  @media (max-width : 320px) {
+    .lead {
+    max-width: 320px;
+    min-height: 406px; 
+    } 
+  }

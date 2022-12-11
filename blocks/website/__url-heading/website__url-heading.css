@@ -1,0 +1,21 @@
+.website__url-heading {
+    max-width: 456px;
+    width: 100%;
+    min-height: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+}
+  @media (max-width : 768px) {
+    .website__url-heading {
+        max-width: 352px;
+        width: 100%;
+    }
+  }
+  @media (max-width : 320px) {
+    .website__url-heading {
+        max-width: 288px;
+        width: 100%;
+    } 
+  }

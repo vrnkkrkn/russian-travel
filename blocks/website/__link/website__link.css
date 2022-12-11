@@ -1,0 +1,22 @@
+.website__link {
+    max-width: 456px;
+    width: 100%;
+    min-height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+  @media (max-width : 768px) {
+    .website__link {
+        max-width: 352px;
+        width: 100%;
+        min-height: 44px;
+    }
+  }
+  @media (max-width : 320px) {
+    .website__link {
+        max-width: 288px;
+        width: 100%;
+    }
+  }
