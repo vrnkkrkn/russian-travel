@@ -1,18 +1,19 @@
 .website {
-    max-width: 456px;
-    min-height: 46px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  max-width: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-  @media screen and (max-width: 768px) {
-    .website {
-        max-width: 352px;
-    }
+
+@media screen and (max-width: 768px) {
+  .website {
+    max-width: 352px;
   }
-  @media screen and (max-width: 320px) {
-    .website {
-        max-width: 288px;
-        margin-left: 16px;
-    }
+}
+
+@media screen and (max-width: 320px) {
+  .website {
+    max-width: 288px;
+    margin-left: 16px;
   }
+}

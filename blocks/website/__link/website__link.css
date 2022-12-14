@@ -1,22 +1,26 @@
 .website__link {
-    max-width: 456px;
-    width: 100%;
-    min-height: 22px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: white;
+  max-width: 456px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  margin-top: 12px;
 }
-  @media screen and (max-width: 768px) {
-    .website__link {
-        max-width: 352px;
-        width: 100%;
-        min-height: 44px;
-    }
+
+.website__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .website__link {
+    max-width: 352px;
   }
-  @media screen and (max-width: 320px) {
-    .website__link {
-        max-width: 288px;
-        width: 100%;
-    }
+}
+
+@media screen and (max-width: 320px) {
+  .website__link {
+    max-width: 288px;
+    margin-bottom: 32px;
   }
+}
