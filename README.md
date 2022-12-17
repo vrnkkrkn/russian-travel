@@ -12,4 +12,4 @@
 
 Интерфейс данного проекта был создан с помощью методологии БЭМ. Для построения сеток были использованы Flex и Grid Layout.
 
-
+Cсылка на проект: https://vrnkkrkn.github.io/russian-travel/index.html
